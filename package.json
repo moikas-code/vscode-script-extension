@@ -2,7 +2,7 @@
   "name": "script-lang",
   "displayName": "Script Language Support",
   "description": "Language support for the Script programming language - an AI-native language with production-grade generics, pattern matching, and memory safety",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "script-lang",
   "author": {
     "name": "Script Language Contributors"
@@ -30,36 +30,51 @@
   "engines": {
     "vscode": "^1.75.0"
   },
-  "categories": ["Programming Languages"],
+  "categories": [
+    "Programming Languages"
+  ],
   "activationEvents": [
     "onLanguage:script"
   ],
   "main": "./out/extension.js",
   "contributes": {
-    "languages": [{
-      "id": "script",
-      "aliases": ["Script", "script"],
-      "extensions": [".script"],
-      "configuration": "./language-configuration.json",
-      "icon": {
-        "light": "./icons/script-icon.png",
-        "dark": "./icons/script-icon.png"
+    "languages": [
+      {
+        "id": "script",
+        "aliases": [
+          "Script",
+          "script"
+        ],
+        "extensions": [
+          ".script"
+        ],
+        "configuration": "./language-configuration.json",
+        "icon": {
+          "light": "./icons/script-icon.png",
+          "dark": "./icons/script-icon.png"
+        }
       }
-    }],
-    "grammars": [{
-      "language": "script",
-      "scopeName": "source.script",
-      "path": "./syntaxes/script.tmLanguage.json"
-    }],
-    "iconThemes": [{
-      "id": "script-icon-theme",
-      "label": "Script Icons",
-      "path": "./script-icon-theme.json"
-    }],
-    "commands": [{
-      "command": "script.helloWorld",
-      "title": "Script: Hello World"
-    }],
+    ],
+    "grammars": [
+      {
+        "language": "script",
+        "scopeName": "source.script",
+        "path": "./syntaxes/script.tmLanguage.json"
+      }
+    ],
+    "iconThemes": [
+      {
+        "id": "script-icon-theme",
+        "label": "Script Icons",
+        "path": "./script-icon-theme.json"
+      }
+    ],
+    "commands": [
+      {
+        "command": "script.helloWorld",
+        "title": "Script: Hello World"
+      }
+    ],
     "configuration": {
       "title": "Script Language",
       "properties": {
