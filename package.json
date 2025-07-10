@@ -3,7 +3,7 @@
   "displayName": "Script Language Support",
   "description": "Language support for the Script programming language - an AI-native language with production-grade generics, pattern matching, and memory safety",
   "version": "0.1.0",
-  "publisher": "moikas",
+  "publisher": "script-lang",
   "author": {
     "name": "Script Language Contributors"
   },

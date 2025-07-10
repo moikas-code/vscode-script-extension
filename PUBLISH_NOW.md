@@ -1,12 +1,12 @@
 # Quick Publishing Guide
 
-Since you've created the `moikas-code` organization on the marketplace, here's how to publish immediately:
+Since you've created the `script-lang` publisher on the marketplace, here's how to publish immediately:
 
 ## 1. Login to Marketplace
 
 ```bash
 # Login with your marketplace publisher
-vsce login moikas-code
+vsce login script-lang
 # Enter your Personal Access Token when prompted
 ```
 
@@ -23,7 +23,7 @@ That's it! The extension will be live on the marketplace within minutes.
 
 Once published, users can install with:
 ```
-ext install moikas-code.script-lang
+ext install script-lang.script-lang
 ```
 
 ## 4. Set Up GitHub Repository (Optional)
@@ -58,9 +58,9 @@ Or if you set up GitHub Actions:
 
 ## Current Extension Details
 
-- **Publisher**: moikas-code
+- **Publisher**: script-lang
 - **Name**: script-lang
-- **Install Command**: `ext install moikas-code.script-lang`
+- **Install Command**: `ext install script-lang.script-lang`
 - **Homepage**: https://github.com/moikas-code/vscode-script
 
 Users will get automatic updates once installed from the marketplace!
