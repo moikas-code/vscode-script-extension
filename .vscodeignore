@@ -1,0 +1,13 @@
+.vscode/**
+.vscode-test/**
+test-files/**
+.gitignore
+CONTRIBUTING.md
+build.sh
+*.vsix
+node_modules/**
+.git/**
+.github/**
+*.log
+.DS_Store
+Thumbs.db

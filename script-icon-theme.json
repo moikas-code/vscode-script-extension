@@ -1,0 +1,24 @@
+{
+  "iconDefinitions": {
+    "_script": {
+      "iconPath": "./icons/script-icon.svg"
+    },
+    "_script_light": {
+      "iconPath": "./icons/script-icon-light.svg"
+    }
+  },
+  "fileExtensions": {
+    "script": "_script"
+  },
+  "languageIds": {
+    "script": "_script"
+  },
+  "light": {
+    "fileExtensions": {
+      "script": "_script_light"
+    },
+    "languageIds": {
+      "script": "_script_light"
+    }
+  }
+}
