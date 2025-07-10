@@ -1,6 +1,6 @@
 {
   "name": "script-lang",
-  "displayName": "Script Programming Language",
+  "displayName": "Script Lang - AI-Native Programming",
   "description": "Language support for the Script programming language - an AI-native language with production-grade generics, pattern matching, and memory safety",
   "version": "0.1.1",
   "publisher": "script-lang",
