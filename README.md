@@ -1,8 +1,9 @@
 # Script Language VS Code Extension
 
-![Version](https://img.shields.io/visual-studio-marketplace/v/script-lang.script-lang)
-![Downloads](https://img.shields.io/visual-studio-marketplace/d/script-lang.script-lang)
-![Rating](https://img.shields.io/visual-studio-marketplace/r/script-lang.script-lang)
+[![CI](https://github.com/moikas-code/vscode-script-extension/actions/workflows/ci.yml/badge.svg)](https://github.com/moikas-code/vscode-script-extension/actions/workflows/ci.yml)
+![Version](https://img.shields.io/visual-studio-marketplace/v/moikas-code.script-lang)
+![Downloads](https://img.shields.io/visual-studio-marketplace/d/moikas-code.script-lang)
+![Rating](https://img.shields.io/visual-studio-marketplace/r/moikas-code.script-lang)
 
 Official VS Code extension for the [Script programming language](https://github.com/moikapy/script) - an AI-native language with production-grade generics, pattern matching, and memory safety.
 
