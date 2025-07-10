@@ -25,7 +25,7 @@ Follow these steps to publish the Script extension to the VS Code Marketplace fo
 1. Go to [Visual Studio Marketplace Management](https://marketplace.visualstudio.com/manage)
 2. Click "Create Publisher"
 3. Fill in details:
-   - **Publisher ID**: `moikas-code` (must match package.json)
+   - **Publisher ID**: `moikas` (must match package.json)
    - **Display Name**: `Script Language Team`
    - **Email**: Your contact email
    - **Website**: `https://github.com/moikapy/script`
@@ -65,7 +65,7 @@ Before automation, test manual publishing:
 
 ```bash
 # Login to marketplace
-vsce login moikas-code
+vsce login moikas
 # Enter your PAT when prompted
 
 # Package and publish
@@ -98,7 +98,7 @@ The GitHub Action will automatically publish to the marketplace!
 
 1. Check [VS Code Marketplace](https://marketplace.visualstudio.com)
 2. Search for "Script Language"
-3. Install with: `ext install moikas-code.script-lang`
+3. Install with: `ext install moikas.script-lang`
 
 ## 9. Update Workflow
 

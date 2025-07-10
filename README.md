@@ -1,9 +1,9 @@
 # Script Language VS Code Extension
 
 [![CI](https://github.com/moikas-code/vscode-script-extension/actions/workflows/ci.yml/badge.svg)](https://github.com/moikas-code/vscode-script-extension/actions/workflows/ci.yml)
-![Version](https://img.shields.io/visual-studio-marketplace/v/moikas-code.script-lang)
-![Downloads](https://img.shields.io/visual-studio-marketplace/d/moikas-code.script-lang)
-![Rating](https://img.shields.io/visual-studio-marketplace/r/moikas-code.script-lang)
+![Version](https://img.shields.io/visual-studio-marketplace/v/moikas.script-lang)
+![Downloads](https://img.shields.io/visual-studio-marketplace/d/moikas.script-lang)
+![Rating](https://img.shields.io/visual-studio-marketplace/r/moikas.script-lang)
 
 Official VS Code extension for the [Script programming language](https://github.com/moikapy/script) - an AI-native language with production-grade generics, pattern matching, and memory safety.
 
@@ -23,7 +23,7 @@ This extension provides language support for the Script programming language in 
 
 1. Open VS Code or Cursor
 2. Press `Ctrl+P` / `Cmd+P`
-3. Type `ext install moikas-code.script-lang`
+3. Type `ext install moikas.script-lang`
 4. Press Enter and click Install
 
 **✨ Auto-Updates**: Once installed, the extension updates automatically when new versions are released!
@@ -169,4 +169,4 @@ MIT - See [LICENSE](LICENSE) for details.
 - [Script Language Repository](https://github.com/moikapy/script)
 - [Script Documentation](https://github.com/moikapy/script/tree/main/docs)
 - [Report Issues](https://github.com/moikas-code/vscode-script-extension/issues)
-- [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=moikas-code.script-lang)
+- [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=moikas.script-lang)
